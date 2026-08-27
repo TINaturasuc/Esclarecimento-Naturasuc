@@ -1,4 +1,4 @@
-const editButton = document.querySelector('#editButton');
+
 const cancelButton = document.querySelector('#cancelButton');
 const saveButton = document.querySelector('#saveButton');
 const printButton = document.querySelector('#printButton');
