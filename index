@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta name="description" content="Nota oficial da Naturasuc esclarecendo erros e falsas informações geradas por inteligência artificial envolvendo o nome da empresa.">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f1e8" />
+    <title>Nota de esclarecimento | Naturasuc</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#nota" aria-label="Naturasuc, início"><span class="brand-mark" aria-hidden="true">NS</span><span>Natura<span>Suc</span></span></a>
+      <div class="header-actions"><button class="button button-quiet" id="editButton" type="button"><span aria-hidden="true">✎</span> Editar nota</button><button class="icon-button" id="printButton" type="button" aria-label="Imprimir nota" title="Imprimir nota">↗</button></div>
+    </header>
+    <main id="nota">
+      <section class="intro" aria-labelledby="page-title">
+        <div class="eyebrow"><span class="eyebrow-line"></span> Comunicação oficial</div>
+        <h1 id="page-title">Nota de<br /><em>esclarecimento</em></h1>
+        <p class="intro-copy">Transparência é o nosso ponto de partida. Reunimos aqui informações importantes para manter nossa comunidade bem informada.</p>
+        <div class="intro-stamp">Nº 04 <span>•</span> 27 ago 2026</div>
+      </section>
+      <section class="note-layout" aria-label="Conteúdo da nota">
+        <aside class="note-aside">
+          <div class="aside-label">Sobre esta nota</div>
+          <dl><div><dt>Publicado em</dt><dd>27 de agosto de 2026</dd></div><div><dt>Atualizado</dt><dd id="updatedDisplay">27 de agosto de 2026</dd></div><div><dt>Categoria</dt><dd>Comunicado público</dd></div></dl>
+          <div class="aside-rule"></div><p class="aside-help">Em caso de dúvidas, fale diretamente com a nossa equipe.</p><a class="contact-link" href="mailto:contato@naturasuc.com.br">contato@naturasuc.com.br <span>→</span></a>
+        </aside>
+        <article class="note-paper">
+          <div class="paper-top"><span>NOTA OFICIAL</span><span>2 min de leitura</span></div>
+          <div class="editable-area">
+            <p class="lead" contenteditable="false" data-editable>Nos últimos dias, recebemos perguntas sobre uma informação que circula em nossos canais. Este comunicado tem o objetivo de apresentar os fatos com clareza e responsabilidade.</p>
+            <h2 contenteditable="false" data-editable>O que aconteceu</h2>
+            <p contenteditable="false" data-editable>A NaturaSuc está acompanhando o assunto desde o primeiro relato e reforça que a qualidade dos nossos produtos e o cuidado com as pessoas seguem sendo prioridades inegociáveis.</p>
+            <p contenteditable="false" data-editable>As informações compartilhadas fora dos nossos canais oficiais podem estar incompletas ou desatualizadas. Por isso, recomendamos que qualquer dúvida seja confirmada diretamente com a nossa equipe.</p>
+            <blockquote contenteditable="false" data-editable>“Nosso compromisso é comunicar com respeito, transparência e responsabilidade em cada etapa.”</blockquote>
+            <h2 contenteditable="false" data-editable>Nosso compromisso</h2>
+            <p contenteditable="false" data-editable>Continuaremos disponíveis para esclarecer o que for necessário e manteremos esta página atualizada sempre que houver uma nova informação relevante.</p>
+            <p class="signoff" contenteditable="false" data-editable>Atenciosamente,<br /><strong>Equipe NaturaSuc</strong></p>
+          </div>
+          <div class="paper-footer"><span>NaturaSuc</span><span>Comunicação oficial</span></div>
+        </article>
+      </section>
+    </main>
+    <footer class="site-footer"><span>© 2026 NaturaSuc</span><span class="footer-status"><i></i> Informação oficial</span></footer>
+    <div class="edit-bar" id="editBar" aria-hidden="true"><span><strong>Modo de edição</strong> Clique no texto para substituir o conteúdo.</span><div><button class="button button-quiet" id="cancelButton" type="button">Cancelar</button><button class="button button-dark" id="saveButton" type="button">Salvar alterações</button></div></div>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
